@@ -1,13 +1,13 @@
 import csv
 from datetime import datetime
-from typing import List
+from typing import List, Dict
 from src.models.transaction import Transaction
 
 class DataLoader:
     def __init__(self, file_path: str):
         self.file_path = file_path
 
-    def load_transactions(self) -> List[Transaction]:
+    def load_transactions(self) -> Dict[str, Transaction]:
         transactions = []
         try:
             with open(self.file_path, mode='r', encoding='utf-8') as csvfile:
@@ -24,23 +24,28 @@ class DataLoader:
                         print(f"Skipping row with invalid timestamp: {row}")
                         continue
 
+                    # transaction_id is no longer in the model, but used as key
+                    tx_id = row['transaction_id'].strip()
                     transaction = Transaction(
-                        transaction_id=row['transaction_id'].strip(),
                         sender_id=row['sender_id'].strip(),
                         receiver_id=row['receiver_id'].strip(),
                         amount=float(row['amount']),
                         timestamp=timestamp
                     )
-                    transactions.append(transaction)
+                    transactions.append((tx_id, transaction))
                     
             # Sort by time
-            transactions.sort(key=lambda x: x.timestamp)
-            print(f"Loaded {len(transactions)} transactions.")
-            return transactions
+            transactions.sort(key=lambda x: x[1].timestamp)
+            
+            # Convert to dictionary
+            transaction_dict = {tx_id: tx for tx_id, tx in transactions}
+            
+            print(f"Loaded {len(transaction_dict)} transactions.")
+            return transaction_dict
 
         except FileNotFoundError:
             print(f"Error: File not found at {self.file_path}")
-            return []
+            return {}
         except Exception as e:
             print(f"Error loading data: {e}")
-            return []
+            return {}

@@ -1,5 +1,6 @@
 import sys
 import os
+import time
 
 # Add local directory to path to allow imports if running directly
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -15,6 +16,7 @@ from src.scoring.risk_engine import RiskEngine
 from src.utils.json_exporter import JsonExporter
 
 def main():
+    start_time = time.time()
     importfile = "/home/wolfy/projects/Hackathon/Rift26/GolMaal/Backend/data/transactions.csv"
     outputfile = "/home/wolfy/projects/Hackathon/Rift26/GolMaal/Backend/output.json"
 
@@ -40,6 +42,7 @@ def main():
     # Loops
     loop_detector = LoopDetector(accounts, adj_list)
     loop_detector.detect()
+    loops = loop_detector.loops_detected
 
     # Dispersal
     dispersal_detector = DispersalDetector(accounts, adj_list, rev_adj_list)
@@ -63,6 +66,19 @@ def main():
 
     # 7. Export
     JsonExporter.export(accounts, networks, outputfile)
+    
+    # 8. Download Report
+    end_time = time.time()
+    processing_time_seconds = end_time - start_time
+    # Format processing time
+    processing_time_str = f"{processing_time_seconds:.2f} seconds"
+    
+    download_file = "./download.json"
+    if len(sys.argv) > 2:
+        download_file = sys.argv[2]
+        
+    JsonExporter.export_download_report(accounts, networks, loops, processing_time_str, download_file)
+
     print("Pipeline complete.")
 
 if __name__ == "__main__":

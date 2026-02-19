@@ -1,0 +1,1127 @@
+{
+  "Suspicious account": [
+    {
+      "Account_id": "NODE_L3_4",
+      "Suspicious_score": 135.0,
+      "detected_patterns": [
+        "ringtype:loop",
+        "ringtype:shell"
+      ],
+      "Ring_id": "N010"
+    },
+    {
+      "Account_id": "NODE_L5_4",
+      "Suspicious_score": 135.0,
+      "detected_patterns": [
+        "ringtype:loop",
+        "ringtype:shell"
+      ],
+      "Ring_id": "N008"
+    },
+    {
+      "Account_id": "U_6449",
+      "Suspicious_score": 100.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "U_6049",
+      "Suspicious_score": 100.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "U_4208",
+      "Suspicious_score": 100.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "U_9344",
+      "Suspicious_score": 100.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "U_9623",
+      "Suspicious_score": 100.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "U_8836",
+      "Suspicious_score": 100.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "U_4737",
+      "Suspicious_score": 100.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "U_4026",
+      "Suspicious_score": 100.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "U_4644",
+      "Suspicious_score": 100.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "U_5632",
+      "Suspicious_score": 100.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "U_6688",
+      "Suspicious_score": 100.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "U_9900",
+      "Suspicious_score": 100.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "U_4497",
+      "Suspicious_score": 100.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "U_3966",
+      "Suspicious_score": 100.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "U_6845",
+      "Suspicious_score": 100.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "U_4742",
+      "Suspicious_score": 100.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "U_6759",
+      "Suspicious_score": 100.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "U_1555",
+      "Suspicious_score": 60.0,
+      "detected_patterns": [
+        "ringtype:shell"
+      ],
+      "Ring_id": "N012"
+    },
+    {
+      "Account_id": "U_9876",
+      "Suspicious_score": 60.0,
+      "detected_patterns": [
+        "ringtype:shell"
+      ],
+      "Ring_id": "N014"
+    },
+    {
+      "Account_id": "U_2131",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "U_1439",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N005"
+    },
+    {
+      "Account_id": "U_6881",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "U_5917",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "U_2417",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N006"
+    },
+    {
+      "Account_id": "U_9183",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N006"
+    },
+    {
+      "Account_id": "U_4030",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "NODE_L0_2",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N007"
+    },
+    {
+      "Account_id": "NODE_L0_3",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N007"
+    },
+    {
+      "Account_id": "NODE_L5_5",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N008"
+    },
+    {
+      "Account_id": "NODE_L5_6",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N008"
+    },
+    {
+      "Account_id": "NODE_L7_7",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N009"
+    },
+    {
+      "Account_id": "NODE_L7_8",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N009"
+    },
+    {
+      "Account_id": "NODE_L3_5",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N010"
+    },
+    {
+      "Account_id": "NODE_L3_6",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N010"
+    },
+    {
+      "Account_id": "U_4423",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "U_9956",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "U_3801",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "U_1872",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "NODE_L4_3",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N011"
+    },
+    {
+      "Account_id": "NODE_L4_0",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N011"
+    },
+    {
+      "Account_id": "U_1613",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "NODE_L6_1",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N013"
+    },
+    {
+      "Account_id": "NODE_L6_2",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N013"
+    },
+    {
+      "Account_id": "NODE_L5_7",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N008"
+    },
+    {
+      "Account_id": "NODE_L5_0",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N008"
+    },
+    {
+      "Account_id": "U_5360",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "U_7316",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "U_2174",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N006"
+    },
+    {
+      "Account_id": "U_2887",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N006"
+    },
+    {
+      "Account_id": "NODE_L2_2",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N015"
+    },
+    {
+      "Account_id": "NODE_L2_0",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N015"
+    },
+    {
+      "Account_id": "U_1736",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "U_9689",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "U_5903",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "U_1594",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "U_9553",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "U_5835",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N016"
+    },
+    {
+      "Account_id": "NODE_L2_1",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N015"
+    },
+    {
+      "Account_id": "U_9087",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "U_2794",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N005"
+    },
+    {
+      "Account_id": "U_6061",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N006"
+    },
+    {
+      "Account_id": "U_6836",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N006"
+    },
+    {
+      "Account_id": "U_9065",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N006"
+    },
+    {
+      "Account_id": "U_3591",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "U_4481",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "U_3522",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N005"
+    },
+    {
+      "Account_id": "U_4544",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N006"
+    },
+    {
+      "Account_id": "U_2374",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N006"
+    },
+    {
+      "Account_id": "NODE_L7_2",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N009"
+    },
+    {
+      "Account_id": "NODE_L7_3",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N009"
+    },
+    {
+      "Account_id": "U_9729",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N006"
+    },
+    {
+      "Account_id": "U_8491",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N006"
+    },
+    {
+      "Account_id": "U_6805",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "U_6947",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N006"
+    },
+    {
+      "Account_id": "U_9470",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N006"
+    },
+    {
+      "Account_id": "NODE_L3_3",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N010"
+    },
+    {
+      "Account_id": "NODE_L6_0",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N013"
+    },
+    {
+      "Account_id": "U_3416",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N016"
+    },
+    {
+      "Account_id": "NODE_L1_2",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N017"
+    },
+    {
+      "Account_id": "NODE_L1_0",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N017"
+    },
+    {
+      "Account_id": "NODE_L7_5",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N009"
+    },
+    {
+      "Account_id": "NODE_L7_6",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N009"
+    },
+    {
+      "Account_id": "U_2158",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N006"
+    },
+    {
+      "Account_id": "U_6416",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N006"
+    },
+    {
+      "Account_id": "NODE_L7_0",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N009"
+    },
+    {
+      "Account_id": "NODE_L4_1",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N011"
+    },
+    {
+      "Account_id": "NODE_L5_2",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N008"
+    },
+    {
+      "Account_id": "NODE_L5_3",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N008"
+    },
+    {
+      "Account_id": "U_5887",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N006"
+    },
+    {
+      "Account_id": "NODE_L3_0",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N010"
+    },
+    {
+      "Account_id": "NODE_L3_1",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N010"
+    },
+    {
+      "Account_id": "U_6441",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N016"
+    },
+    {
+      "Account_id": "NODE_L5_1",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N008"
+    },
+    {
+      "Account_id": "NODE_L4_2",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N011"
+    },
+    {
+      "Account_id": "U_7048",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N006"
+    },
+    {
+      "Account_id": "U_3937",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N005"
+    },
+    {
+      "Account_id": "NODE_L0_0",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N007"
+    },
+    {
+      "Account_id": "U_9360",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N016"
+    },
+    {
+      "Account_id": "U_4882",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "NODE_L0_1",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N007"
+    },
+    {
+      "Account_id": "NODE_L7_1",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N009"
+    },
+    {
+      "Account_id": "NODE_L3_2",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N010"
+    },
+    {
+      "Account_id": "U_9631",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N006"
+    },
+    {
+      "Account_id": "U_4311",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N006"
+    },
+    {
+      "Account_id": "NODE_L3_7",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N010"
+    },
+    {
+      "Account_id": "NODE_L1_1",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N017"
+    },
+    {
+      "Account_id": "NODE_L7_4",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N009"
+    },
+    {
+      "Account_id": "U_8040",
+      "Suspicious_score": 50.0,
+      "detected_patterns": [
+        "ringtype:loop"
+      ],
+      "Ring_id": "N004"
+    },
+    {
+      "Account_id": "BIG_CORP_B",
+      "Suspicious_score": 30.0,
+      "detected_patterns": [],
+      "Ring_id": "N001"
+    },
+    {
+      "Account_id": "BIG_CORP_A",
+      "Suspicious_score": 30.0,
+      "detected_patterns": [],
+      "Ring_id": "N002"
+    },
+    {
+      "Account_id": "BIG_CORP_C",
+      "Suspicious_score": 30.0,
+      "detected_patterns": [],
+      "Ring_id": "N003"
+    }
+  ],
+  "Fraud Ring": [
+    {
+      "Ring_id": "N001",
+      "Members": [
+        "BIG_CORP_B"
+      ],
+      "risk": 35.0
+    },
+    {
+      "Ring_id": "N002",
+      "Members": [
+        "BIG_CORP_A"
+      ],
+      "risk": 35.0
+    },
+    {
+      "Ring_id": "N003",
+      "Members": [
+        "BIG_CORP_C"
+      ],
+      "risk": 35.0
+    },
+    {
+      "Ring_id": "N004",
+      "Members": [
+        "U_2131",
+        "U_4882",
+        "U_1594",
+        "U_9553",
+        "U_1736",
+        "U_3591",
+        "U_4030",
+        "U_4481",
+        "U_6881",
+        "U_8040",
+        "U_5917",
+        "U_6805",
+        "U_9689",
+        "U_5903",
+        "U_1613",
+        "U_3801",
+        "U_1872",
+        "U_6759",
+        "U_9900",
+        "U_6449",
+        "U_6049",
+        "U_9623",
+        "U_4208",
+        "U_9344",
+        "U_4737",
+        "U_8836",
+        "U_3966",
+        "U_6845",
+        "U_4742",
+        "U_4497",
+        "U_4644",
+        "U_5632",
+        "U_6688",
+        "U_4026",
+        "U_4423",
+        "U_9956",
+        "U_9087",
+        "U_5360",
+        "U_7316"
+      ],
+      "risk": 64.2823358974359
+    },
+    {
+      "Ring_id": "N005",
+      "Members": [
+        "U_1439",
+        "U_3937",
+        "U_3522",
+        "U_2794"
+      ],
+      "risk": 36.8285
+    },
+    {
+      "Ring_id": "N006",
+      "Members": [
+        "U_2417",
+        "U_9183",
+        "U_6947",
+        "U_7048",
+        "U_9729",
+        "U_8491",
+        "U_9470",
+        "U_4544",
+        "U_2374",
+        "U_6061",
+        "U_6836",
+        "U_9065",
+        "U_4311",
+        "U_9631",
+        "U_2174",
+        "U_5887",
+        "U_2158",
+        "U_6416",
+        "U_2887"
+      ],
+      "risk": 43.7519
+    },
+    {
+      "Ring_id": "N007",
+      "Members": [
+        "NODE_L0_2",
+        "NODE_L0_3",
+        "NODE_L0_0",
+        "NODE_L0_1"
+      ],
+      "risk": 40.2372
+    },
+    {
+      "Ring_id": "N008",
+      "Members": [
+        "NODE_L5_5",
+        "NODE_L5_6",
+        "NODE_L5_7",
+        "NODE_L5_0",
+        "NODE_L5_1",
+        "NODE_L5_2",
+        "NODE_L5_3",
+        "NODE_L5_4"
+      ],
+      "risk": 69.7389
+    },
+    {
+      "Ring_id": "N009",
+      "Members": [
+        "NODE_L7_7",
+        "NODE_L7_8",
+        "NODE_L7_0",
+        "NODE_L7_1",
+        "NODE_L7_2",
+        "NODE_L7_3",
+        "NODE_L7_4",
+        "NODE_L7_5",
+        "NODE_L7_6"
+      ],
+      "risk": 47.0411
+    },
+    {
+      "Ring_id": "N010",
+      "Members": [
+        "NODE_L3_5",
+        "NODE_L3_6",
+        "NODE_L3_7",
+        "NODE_L3_0",
+        "NODE_L3_1",
+        "NODE_L3_2",
+        "NODE_L3_3",
+        "NODE_L3_4"
+      ],
+      "risk": 70.9973
+    },
+    {
+      "Ring_id": "N011",
+      "Members": [
+        "NODE_L4_3",
+        "NODE_L4_0",
+        "NODE_L4_1",
+        "NODE_L4_2"
+      ],
+      "risk": 40.6764
+    },
+    {
+      "Ring_id": "N012",
+      "Members": [
+        "U_1555"
+      ],
+      "risk": 50.4637
+    },
+    {
+      "Ring_id": "N013",
+      "Members": [
+        "NODE_L6_1",
+        "NODE_L6_2",
+        "NODE_L6_0"
+      ],
+      "risk": 38.3309
+    },
+    {
+      "Ring_id": "N014",
+      "Members": [
+        "U_9876"
+      ],
+      "risk": 50.3325
+    },
+    {
+      "Ring_id": "N015",
+      "Members": [
+        "NODE_L2_2",
+        "NODE_L2_0",
+        "NODE_L2_1"
+      ],
+      "risk": 38.4278
+    },
+    {
+      "Ring_id": "N016",
+      "Members": [
+        "U_5835",
+        "U_3416",
+        "U_9360",
+        "U_6441"
+      ],
+      "risk": 37.1598
+    },
+    {
+      "Ring_id": "N017",
+      "Members": [
+        "NODE_L1_2",
+        "NODE_L1_0",
+        "NODE_L1_1"
+      ],
+      "risk": 37.3691
+    }
+  ],
+  "Summary": {
+    "Accounts_Anaylsed": 8131,
+    "Suspicious_Account": 113,
+    "Rings_detected": 17,
+    "Processing_time": "0.34 seconds"
+  }
+}

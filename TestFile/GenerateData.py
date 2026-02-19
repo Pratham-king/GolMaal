@@ -5,6 +5,13 @@ from datetime import datetime, timedelta
 def generate_laundering_data(filename="transactions_10k.csv", total_rows=10000):
     data = []
     current_id = 1
+    loop = 8
+    fan_in = 2
+    fan_out = 4
+    shl = 2
+    merch = 90
+    payroll = 20
+
 
     def get_tid():
         nonlocal current_id
@@ -12,16 +19,21 @@ def generate_laundering_data(filename="transactions_10k.csv", total_rows=10000):
         current_id += 1
         return tid
 
-    def get_ts(day=None, month=None):
-        """Generates timestamp in DDMMYYYY:HHMMSS format."""
-        y, m = 2023, month or random.randint(1, 12)
-        d = day or random.randint(1, 28)
-        dt = datetime(y, m, d, random.randint(0, 23), random.randint(0, 59), random.randint(0, 59))
+    def get_ts(day=None, month=None, start_date=None):
+        """Generates timestamp after start_date in DDMMYYYY:HHMMSS format."""
+        if start_date:
+            dt = datetime.strptime(start_date, "%d%m%Y:%H%M%S")
+            # Add random days (0-365) and random time
+            dt += timedelta(days=random.randint(0, 95), hours=random.randint(0, 23), minutes=random.randint(0, 59), seconds=random.randint(0, 59))
+        else:
+            y, m = 2023, month or random.randint(1, 12)
+            d = day or random.randint(1, 28)
+            dt = datetime(y, m, d, random.randint(0, 23), random.randint(0, 59), random.randint(0, 59))
         return dt.strftime("%d%m%Y:%H%M%S")
 
     # --- 1. Money Laundering Loops (A -> B -> C -> A) ---
     # Creating 15 different loops of varying lengths (3 to 9)
-    for l_idx in range(15):
+    for l_idx in range(loop):
         length = random.randint(3, 9)
         loop_nodes = [f"NODE_L{l_idx}_{i}" for i in range(length)]
         amount = random.randint(5000, 15000)
@@ -32,17 +44,21 @@ def generate_laundering_data(filename="transactions_10k.csv", total_rows=10000):
 
     # --- 2. Fan-In (Tree) & Fan-Out ---
     # Fan-In: 100 accounts sending to 1 central "Hub"
-    hub_in = "CENTRAL_COLLECTOR_01"
-    for i in range(100):
-        data.append([get_tid(), f"SENDER_FAN_{i}", hub_in, random.randint(100, 1000), get_ts()])
+    
+    for i in range(fan_in):
+        hub_in = f"CENTRAL_COLLECTOR_{i}"
+        for i in range(random.randint(12,100)): # Each sender can have 1-3 transactions to the hub
+            data.append([get_tid(), f"SENDER_FAN_{i}", hub_in, random.randint(100, 1000), get_ts()])
     
     # Fan-Out: 1 central account sending to 100 "Mules"
-    hub_out = "DISTRIBUTOR_01"
-    for i in range(100):
-        data.append([get_tid(), hub_out, f"MULE_REC_{i}", random.randint(100, 1000), get_ts()])
-
+    
+    for i in range(fan_out):
+        hub_out = f"CENTRAL_DISPERSER_{i}"
+        for i in range(100):
+            data.append([get_tid(), hub_out, f"MULE_REC_{i}", random.randint(100, 1000), get_ts()])
+    
     # --- 3. Shell Accounts (Low volume middle-men) ---
-    for s_idx in range(30):
+    for s_idx in range(shl):
         shell = f"SHELL_ACC_{s_idx}"
         amt = random.randint(8000, 9000)
         # Sequence: Layering move
@@ -52,15 +68,16 @@ def generate_laundering_data(filename="transactions_10k.csv", total_rows=10000):
     # --- 4. High Volume Merchants ---
     merchants = ["GLOBAL_RETAIL_X", "TECH_STORE_Y", "ENERGY_CORP_Z"]
     for m in merchants:
-        for _ in range(300): # 900 total merchant rows
+        for _ in range(int(merch // 3)): # 900 total merchant rows
             data.append([get_tid(), f"USER_{random.randint(100, 999)}", m, random.randint(1000, 20000), get_ts()])
 
     # --- 5. Payroll (Monthly cycles) ---
-    company = "BIG_CORP_INC"
-    staff = [f"STAFF_{i:02d}" for i in range(50)]
-    for month in range(1, 13):
-        for member in staff:
-            data.append([get_tid(), company, member, 5000, get_ts(day=25, month=month)])
+    company = ["BIG_CORP_A","BIG_CORP_B","BIG_CORP_C"]
+    for c in company:
+        staff = [f"STAFF_{i:02d}" for i in range(payroll // len(company))]
+        for month in range(1, 13):
+            for member in staff:
+                data.append([get_tid(), c, member, 5000, get_ts(day=random.randint(2, 5), month=month)])
 
     # --- 6. Fill with Random Noise (Normal Transactions) ---
     remaining = total_rows - len(data)

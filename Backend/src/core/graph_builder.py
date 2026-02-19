@@ -3,7 +3,7 @@ from src.models.transaction import Transaction
 from src.models.account_profile import AccountProfile
 
 class GraphBuilder:
-    def __init__(self, transactions: List[Transaction]):
+    def __init__(self, transactions: Dict[str, Transaction]):
         self.transactions = transactions
         self.accounts: Dict[str, AccountProfile] = {}
         self.adjacency_list: Dict[str, List[Dict[str, Any]]] = {}
@@ -11,7 +11,7 @@ class GraphBuilder:
 
     def build_graph(self):
         print("Building graph and account profiles...")
-        for tx in self.transactions:
+        for tx_id, tx in self.transactions.items():
             # Update Sender Profile
             if tx.sender_id not in self.accounts:
                 self.accounts[tx.sender_id] = AccountProfile(account_id=tx.sender_id)
@@ -40,7 +40,7 @@ class GraphBuilder:
                 "receiver": tx.receiver_id,
                 "amount": tx.amount,
                 "timestamp": tx.timestamp,
-                "transaction_id": tx.transaction_id
+                "transaction_id": tx_id
             }
             self.adjacency_list[tx.sender_id].append(edge_data)
 
@@ -52,7 +52,7 @@ class GraphBuilder:
                 "sender": tx.sender_id,
                 "amount": tx.amount,
                 "timestamp": tx.timestamp,
-                "transaction_id": tx.transaction_id
+                "transaction_id": tx_id
             }
             self.reverse_adjacency_list[tx.receiver_id].append(reverse_edge_data)
 
