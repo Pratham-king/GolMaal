@@ -1,0 +1,1839 @@
+{
+  "accounts": [
+    {
+      "account_id": "NODE_L4_3",
+      "total_sent": 6248.0,
+      "total_received": 6248.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-01-04T06:48:26",
+      "last_seen_time": "2023-10-08T12:51:09",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N001"
+    },
+    {
+      "account_id": "NODE_L4_4",
+      "total_sent": 6248.0,
+      "total_received": 6248.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-01-04T06:48:26",
+      "last_seen_time": "2023-08-16T08:51:57",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N001"
+    },
+    {
+      "account_id": "NODE_L12_0",
+      "total_sent": 13780.0,
+      "total_received": 13780.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-01-05T17:08:00",
+      "last_seen_time": "2023-03-02T10:57:47",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N002"
+    },
+    {
+      "account_id": "NODE_L12_1",
+      "total_sent": 13780.0,
+      "total_received": 13780.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-01-05T17:08:00",
+      "last_seen_time": "2023-12-09T10:52:10",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N002"
+    },
+    {
+      "account_id": "UNKNOWN_ORIGIN",
+      "total_sent": 253828.0,
+      "total_received": 0.0,
+      "unique_senders_count": 0,
+      "unique_receivers_count": 30,
+      "first_seen_time": "2023-01-06T03:48:20",
+      "last_seen_time": "2023-12-10T20:26:22",
+      "transaction_count": 30,
+      "suspicious_score": 30.0,
+      "tags": [],
+      "network_id": "N003"
+    },
+    {
+      "account_id": "U_5890",
+      "total_sent": 6644.0,
+      "total_received": 4432.0,
+      "unique_senders_count": 3,
+      "unique_receivers_count": 2,
+      "first_seen_time": "2023-01-12T05:50:08",
+      "last_seen_time": "2023-11-11T00:43:22",
+      "transaction_count": 5,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N004"
+    },
+    {
+      "account_id": "U_8992",
+      "total_sent": 4005.0,
+      "total_received": 3690.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 2,
+      "first_seen_time": "2023-01-15T01:22:29",
+      "last_seen_time": "2023-10-24T07:42:56",
+      "transaction_count": 3,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N004"
+    },
+    {
+      "account_id": "U_5384",
+      "total_sent": 310.0,
+      "total_received": 2096.0,
+      "unique_senders_count": 2,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-01-15T01:22:29",
+      "last_seen_time": "2023-12-21T06:46:56",
+      "transaction_count": 3,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N004"
+    },
+    {
+      "account_id": "NODE_L4_6",
+      "total_sent": 6248.0,
+      "total_received": 6248.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-01-16T01:00:51",
+      "last_seen_time": "2023-06-21T13:00:39",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N001"
+    },
+    {
+      "account_id": "NODE_L4_0",
+      "total_sent": 6248.0,
+      "total_received": 6248.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-01-16T01:00:51",
+      "last_seen_time": "2023-12-20T12:14:48",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N001"
+    },
+    {
+      "account_id": "NODE_L14_6",
+      "total_sent": 12842.0,
+      "total_received": 12842.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-01-16T11:34:22",
+      "last_seen_time": "2023-07-20T20:24:29",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N005"
+    },
+    {
+      "account_id": "NODE_L14_0",
+      "total_sent": 12842.0,
+      "total_received": 12842.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-01-16T11:34:22",
+      "last_seen_time": "2023-04-18T17:08:00",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N005"
+    },
+    {
+      "account_id": "NODE_L13_3",
+      "total_sent": 11943.0,
+      "total_received": 11943.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-01-20T13:08:20",
+      "last_seen_time": "2023-06-02T13:56:16",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N006"
+    },
+    {
+      "account_id": "NODE_L13_4",
+      "total_sent": 11943.0,
+      "total_received": 11943.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-01-20T13:08:20",
+      "last_seen_time": "2023-04-05T22:04:52",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N006"
+    },
+    {
+      "account_id": "BIG_CORP_INC",
+      "total_sent": 3000000.0,
+      "total_received": 0.0,
+      "unique_senders_count": 0,
+      "unique_receivers_count": 50,
+      "first_seen_time": "2023-01-25T00:23:12",
+      "last_seen_time": "2023-12-25T23:44:05",
+      "transaction_count": 600,
+      "suspicious_score": 30.0,
+      "tags": [],
+      "network_id": "N007"
+    },
+    {
+      "account_id": "NODE_L3_1",
+      "total_sent": 7057.0,
+      "total_received": 7057.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-01-27T12:42:48",
+      "last_seen_time": "2023-02-22T14:25:11",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N008"
+    },
+    {
+      "account_id": "NODE_L3_2",
+      "total_sent": 7057.0,
+      "total_received": 7057.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-01-27T12:42:48",
+      "last_seen_time": "2023-06-19T00:33:11",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N008"
+    },
+    {
+      "account_id": "NODE_L2_7",
+      "total_sent": 5681.0,
+      "total_received": 5681.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-02-01T00:15:15",
+      "last_seen_time": "2023-07-28T17:40:36",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N009"
+    },
+    {
+      "account_id": "NODE_L2_0",
+      "total_sent": 5681.0,
+      "total_received": 5681.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-02-01T00:15:15",
+      "last_seen_time": "2023-08-19T09:34:12",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N009"
+    },
+    {
+      "account_id": "NODE_L8_0",
+      "total_sent": 6508.0,
+      "total_received": 6508.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-02-06T09:48:40",
+      "last_seen_time": "2023-08-20T22:58:47",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N010"
+    },
+    {
+      "account_id": "NODE_L8_1",
+      "total_sent": 6508.0,
+      "total_received": 6508.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-02-06T09:48:40",
+      "last_seen_time": "2023-04-27T09:00:31",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N010"
+    },
+    {
+      "account_id": "NODE_L11_5",
+      "total_sent": 6706.0,
+      "total_received": 6706.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-02-07T10:51:49",
+      "last_seen_time": "2023-09-16T06:00:13",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N011"
+    },
+    {
+      "account_id": "NODE_L11_0",
+      "total_sent": 6706.0,
+      "total_received": 6706.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-02-07T10:51:49",
+      "last_seen_time": "2023-02-23T07:59:06",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N011"
+    },
+    {
+      "account_id": "NODE_L9_6",
+      "total_sent": 13077.0,
+      "total_received": 13077.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-02-14T17:22:56",
+      "last_seen_time": "2023-12-15T12:45:42",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N012"
+    },
+    {
+      "account_id": "NODE_L9_7",
+      "total_sent": 13077.0,
+      "total_received": 13077.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-02-14T17:22:56",
+      "last_seen_time": "2023-06-20T03:45:52",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N012"
+    },
+    {
+      "account_id": "NODE_L3_0",
+      "total_sent": 7057.0,
+      "total_received": 7057.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-02-22T14:25:11",
+      "last_seen_time": "2023-10-19T01:16:13",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N008"
+    },
+    {
+      "account_id": "NODE_L11_1",
+      "total_sent": 6706.0,
+      "total_received": 6706.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-02-23T07:59:06",
+      "last_seen_time": "2023-08-07T19:17:36",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N011"
+    },
+    {
+      "account_id": "NODE_L6_5",
+      "total_sent": 12314.0,
+      "total_received": 12314.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-02-24T00:25:38",
+      "last_seen_time": "2023-10-12T16:54:40",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N013"
+    },
+    {
+      "account_id": "NODE_L6_6",
+      "total_sent": 12314.0,
+      "total_received": 12314.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-02-24T00:25:38",
+      "last_seen_time": "2023-10-18T13:39:32",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N013"
+    },
+    {
+      "account_id": "NODE_L8_3",
+      "total_sent": 6508.0,
+      "total_received": 6508.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-02-26T07:12:16",
+      "last_seen_time": "2023-02-27T02:11:38",
+      "transaction_count": 2,
+      "suspicious_score": 135.0,
+      "tags": [
+        "ringtype:loop",
+        "ringtype:shell"
+      ],
+      "network_id": "N010"
+    },
+    {
+      "account_id": "NODE_L8_4",
+      "total_sent": 6508.0,
+      "total_received": 6508.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-02-26T07:12:16",
+      "last_seen_time": "2023-08-20T22:58:47",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N010"
+    },
+    {
+      "account_id": "NODE_L8_2",
+      "total_sent": 6508.0,
+      "total_received": 6508.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-02-27T02:11:38",
+      "last_seen_time": "2023-04-27T09:00:31",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N010"
+    },
+    {
+      "account_id": "NODE_L12_7",
+      "total_sent": 13780.0,
+      "total_received": 13780.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-03-02T10:57:47",
+      "last_seen_time": "2023-12-07T00:13:15",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N002"
+    },
+    {
+      "account_id": "NODE_L14_4",
+      "total_sent": 12842.0,
+      "total_received": 12842.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-03-10T04:39:36",
+      "last_seen_time": "2023-04-10T16:05:50",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N005"
+    },
+    {
+      "account_id": "NODE_L14_5",
+      "total_sent": 12842.0,
+      "total_received": 12842.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-03-10T04:39:36",
+      "last_seen_time": "2023-07-20T20:24:29",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N005"
+    },
+    {
+      "account_id": "NODE_L5_2",
+      "total_sent": 6838.0,
+      "total_received": 6838.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-03-14T12:20:54",
+      "last_seen_time": "2023-09-13T14:41:14",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N014"
+    },
+    {
+      "account_id": "NODE_L5_0",
+      "total_sent": 6838.0,
+      "total_received": 6838.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-03-14T12:20:54",
+      "last_seen_time": "2023-08-20T01:15:46",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N014"
+    },
+    {
+      "account_id": "NODE_L2_4",
+      "total_sent": 5681.0,
+      "total_received": 5681.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-03-14T12:31:49",
+      "last_seen_time": "2023-04-26T05:19:00",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N009"
+    },
+    {
+      "account_id": "NODE_L2_5",
+      "total_sent": 5681.0,
+      "total_received": 5681.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-03-14T12:31:49",
+      "last_seen_time": "2023-08-18T11:11:52",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N009"
+    },
+    {
+      "account_id": "NODE_L2_1",
+      "total_sent": 5681.0,
+      "total_received": 5681.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-03-16T02:38:11",
+      "last_seen_time": "2023-08-19T09:34:12",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N009"
+    },
+    {
+      "account_id": "NODE_L2_2",
+      "total_sent": 5681.0,
+      "total_received": 5681.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-03-16T02:38:11",
+      "last_seen_time": "2023-03-21T03:02:25",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N009"
+    },
+    {
+      "account_id": "NODE_L2_3",
+      "total_sent": 5681.0,
+      "total_received": 5681.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-03-21T03:02:25",
+      "last_seen_time": "2023-04-26T05:19:00",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N009"
+    },
+    {
+      "account_id": "NODE_L10_0",
+      "total_sent": 9596.0,
+      "total_received": 9596.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-03-26T19:17:28",
+      "last_seen_time": "2023-07-21T21:25:15",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N015"
+    },
+    {
+      "account_id": "NODE_L10_1",
+      "total_sent": 9596.0,
+      "total_received": 9596.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-03-26T19:17:28",
+      "last_seen_time": "2023-05-10T20:42:45",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N015"
+    },
+    {
+      "account_id": "NODE_L14_2",
+      "total_sent": 12842.0,
+      "total_received": 12842.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-03-28T11:26:45",
+      "last_seen_time": "2023-11-19T00:20:45",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N005"
+    },
+    {
+      "account_id": "NODE_L14_3",
+      "total_sent": 12842.0,
+      "total_received": 12842.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-03-28T11:26:45",
+      "last_seen_time": "2023-04-10T16:05:50",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N005"
+    },
+    {
+      "account_id": "U_9162",
+      "total_sent": 784.0,
+      "total_received": 10295.0,
+      "unique_senders_count": 3,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-04-04T02:37:16",
+      "last_seen_time": "2023-11-09T18:48:57",
+      "transaction_count": 4,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N004"
+    },
+    {
+      "account_id": "U_3062",
+      "total_sent": 8523.0,
+      "total_received": 784.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 3,
+      "first_seen_time": "2023-04-04T02:37:16",
+      "last_seen_time": "2023-07-28T19:07:12",
+      "transaction_count": 4,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N004"
+    },
+    {
+      "account_id": "NODE_L13_5",
+      "total_sent": 11943.0,
+      "total_received": 11943.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-04-05T22:04:52",
+      "last_seen_time": "2023-04-12T11:13:51",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N006"
+    },
+    {
+      "account_id": "NODE_L6_3",
+      "total_sent": 12314.0,
+      "total_received": 12314.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-04-06T21:04:46",
+      "last_seen_time": "2023-12-24T08:34:44",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N013"
+    },
+    {
+      "account_id": "NODE_L6_4",
+      "total_sent": 12314.0,
+      "total_received": 12314.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-04-06T21:04:46",
+      "last_seen_time": "2023-10-12T16:54:40",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N013"
+    },
+    {
+      "account_id": "NODE_L13_0",
+      "total_sent": 11943.0,
+      "total_received": 11943.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-04-12T11:13:51",
+      "last_seen_time": "2023-04-25T17:53:52",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N006"
+    },
+    {
+      "account_id": "NODE_L14_1",
+      "total_sent": 12842.0,
+      "total_received": 12842.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-04-18T17:08:00",
+      "last_seen_time": "2023-11-19T00:20:45",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N005"
+    },
+    {
+      "account_id": "NODE_L12_4",
+      "total_sent": 13780.0,
+      "total_received": 13780.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-04-19T19:41:46",
+      "last_seen_time": "2023-10-21T11:03:28",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N002"
+    },
+    {
+      "account_id": "NODE_L12_5",
+      "total_sent": 13780.0,
+      "total_received": 13780.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-04-19T19:41:46",
+      "last_seen_time": "2023-12-13T14:19:15",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N002"
+    },
+    {
+      "account_id": "NODE_L13_1",
+      "total_sent": 11943.0,
+      "total_received": 11943.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-04-25T17:53:52",
+      "last_seen_time": "2023-06-17T23:25:30",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N006"
+    },
+    {
+      "account_id": "NODE_L1_0",
+      "total_sent": 8893.0,
+      "total_received": 8893.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-05-03T02:02:16",
+      "last_seen_time": "2023-06-22T19:28:24",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N016"
+    },
+    {
+      "account_id": "NODE_L1_1",
+      "total_sent": 8893.0,
+      "total_received": 8893.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-05-03T02:02:16",
+      "last_seen_time": "2023-09-09T14:38:19",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N016"
+    },
+    {
+      "account_id": "NODE_L10_2",
+      "total_sent": 9596.0,
+      "total_received": 9596.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-05-10T20:42:45",
+      "last_seen_time": "2023-10-02T19:33:51",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N015"
+    },
+    {
+      "account_id": "NODE_L11_2",
+      "total_sent": 6706.0,
+      "total_received": 6706.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-05-15T06:46:29",
+      "last_seen_time": "2023-08-07T19:17:36",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N011"
+    },
+    {
+      "account_id": "NODE_L11_3",
+      "total_sent": 6706.0,
+      "total_received": 6706.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-05-15T06:46:29",
+      "last_seen_time": "2023-10-02T07:47:44",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N011"
+    },
+    {
+      "account_id": "NODE_L6_0",
+      "total_sent": 12314.0,
+      "total_received": 12314.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-05-21T22:33:09",
+      "last_seen_time": "2023-10-02T12:15:35",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N013"
+    },
+    {
+      "account_id": "NODE_L6_1",
+      "total_sent": 12314.0,
+      "total_received": 12314.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-05-21T22:33:09",
+      "last_seen_time": "2023-12-23T14:46:44",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N013"
+    },
+    {
+      "account_id": "NODE_L0_1",
+      "total_sent": 14493.0,
+      "total_received": 14493.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-05-21T23:54:21",
+      "last_seen_time": "2023-05-24T12:55:17",
+      "transaction_count": 2,
+      "suspicious_score": 135.0,
+      "tags": [
+        "ringtype:loop",
+        "ringtype:shell"
+      ],
+      "network_id": "N017"
+    },
+    {
+      "account_id": "NODE_L0_2",
+      "total_sent": 14493.0,
+      "total_received": 14493.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-05-21T23:54:21",
+      "last_seen_time": "2023-06-07T00:01:48",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N017"
+    },
+    {
+      "account_id": "NODE_L0_4",
+      "total_sent": 14493.0,
+      "total_received": 14493.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-05-22T13:57:15",
+      "last_seen_time": "2023-11-08T15:35:34",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N017"
+    },
+    {
+      "account_id": "NODE_L0_0",
+      "total_sent": 14493.0,
+      "total_received": 14493.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-05-22T13:57:15",
+      "last_seen_time": "2023-05-24T12:55:17",
+      "transaction_count": 2,
+      "suspicious_score": 135.0,
+      "tags": [
+        "ringtype:loop",
+        "ringtype:shell"
+      ],
+      "network_id": "N017"
+    },
+    {
+      "account_id": "NODE_L13_2",
+      "total_sent": 11943.0,
+      "total_received": 11943.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-06-02T13:56:16",
+      "last_seen_time": "2023-06-17T23:25:30",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N006"
+    },
+    {
+      "account_id": "NODE_L0_3",
+      "total_sent": 14493.0,
+      "total_received": 14493.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-06-07T00:01:48",
+      "last_seen_time": "2023-11-08T15:35:34",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N017"
+    },
+    {
+      "account_id": "NODE_L9_2",
+      "total_sent": 13077.0,
+      "total_received": 13077.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-06-07T08:42:05",
+      "last_seen_time": "2023-08-02T04:05:03",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N012"
+    },
+    {
+      "account_id": "NODE_L9_3",
+      "total_sent": 13077.0,
+      "total_received": 13077.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-06-07T08:42:05",
+      "last_seen_time": "2023-09-14T16:50:55",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N012"
+    },
+    {
+      "account_id": "NODE_L9_0",
+      "total_sent": 13077.0,
+      "total_received": 13077.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-06-10T03:59:12",
+      "last_seen_time": "2023-10-16T20:33:37",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N012"
+    },
+    {
+      "account_id": "NODE_L9_1",
+      "total_sent": 13077.0,
+      "total_received": 13077.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-06-10T03:59:12",
+      "last_seen_time": "2023-08-02T04:05:03",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N012"
+    },
+    {
+      "account_id": "SHELL_ACC_7",
+      "total_sent": 8942.0,
+      "total_received": 8952.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-06-17T11:56:35",
+      "last_seen_time": "2023-06-19T21:06:10",
+      "transaction_count": 2,
+      "suspicious_score": 60.0,
+      "tags": [
+        "ringtype:shell"
+      ],
+      "network_id": "N003"
+    },
+    {
+      "account_id": "NODE_L3_3",
+      "total_sent": 7057.0,
+      "total_received": 7057.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-06-19T00:33:11",
+      "last_seen_time": "2023-10-19T01:16:13",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N008"
+    },
+    {
+      "account_id": "NODE_L9_8",
+      "total_sent": 13077.0,
+      "total_received": 13077.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-06-20T03:45:52",
+      "last_seen_time": "2023-10-16T20:33:37",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N012"
+    },
+    {
+      "account_id": "NODE_L4_5",
+      "total_sent": 6248.0,
+      "total_received": 6248.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-06-21T13:00:39",
+      "last_seen_time": "2023-08-16T08:51:57",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N001"
+    },
+    {
+      "account_id": "NODE_L1_5",
+      "total_sent": 8893.0,
+      "total_received": 8893.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-06-22T19:28:24",
+      "last_seen_time": "2023-11-28T02:00:07",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N016"
+    },
+    {
+      "account_id": "NODE_L10_3",
+      "total_sent": 9596.0,
+      "total_received": 9596.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-07-11T03:50:29",
+      "last_seen_time": "2023-10-02T19:33:51",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N015"
+    },
+    {
+      "account_id": "NODE_L10_4",
+      "total_sent": 9596.0,
+      "total_received": 9596.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-07-11T03:50:29",
+      "last_seen_time": "2023-07-21T21:25:15",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N015"
+    },
+    {
+      "account_id": "NODE_L12_2",
+      "total_sent": 13780.0,
+      "total_received": 13780.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-07-16T22:40:13",
+      "last_seen_time": "2023-12-09T10:52:10",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N002"
+    },
+    {
+      "account_id": "NODE_L12_3",
+      "total_sent": 13780.0,
+      "total_received": 13780.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-07-16T22:40:13",
+      "last_seen_time": "2023-10-21T11:03:28",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N002"
+    },
+    {
+      "account_id": "NODE_L2_6",
+      "total_sent": 5681.0,
+      "total_received": 5681.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-07-28T17:40:36",
+      "last_seen_time": "2023-08-18T11:11:52",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N009"
+    },
+    {
+      "account_id": "U_4029",
+      "total_sent": 3357.0,
+      "total_received": 3225.0,
+      "unique_senders_count": 2,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-08-13T10:13:12",
+      "last_seen_time": "2023-11-10T09:20:30",
+      "transaction_count": 3,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N004"
+    },
+    {
+      "account_id": "NODE_L5_1",
+      "total_sent": 6838.0,
+      "total_received": 6838.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-08-20T01:15:46",
+      "last_seen_time": "2023-09-13T14:41:14",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N014"
+    },
+    {
+      "account_id": "NODE_L1_3",
+      "total_sent": 8893.0,
+      "total_received": 8893.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-09-08T15:51:14",
+      "last_seen_time": "2023-09-24T16:52:36",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N016"
+    },
+    {
+      "account_id": "NODE_L1_4",
+      "total_sent": 8893.0,
+      "total_received": 8893.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-09-08T15:51:14",
+      "last_seen_time": "2023-11-28T02:00:07",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N016"
+    },
+    {
+      "account_id": "NODE_L1_2",
+      "total_sent": 8893.0,
+      "total_received": 8893.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-09-09T14:38:19",
+      "last_seen_time": "2023-09-24T16:52:36",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N016"
+    },
+    {
+      "account_id": "NODE_L9_4",
+      "total_sent": 13077.0,
+      "total_received": 13077.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-09-14T16:50:55",
+      "last_seen_time": "2023-12-19T17:15:08",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N012"
+    },
+    {
+      "account_id": "NODE_L11_4",
+      "total_sent": 6706.0,
+      "total_received": 6706.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-09-16T06:00:13",
+      "last_seen_time": "2023-10-02T07:47:44",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N011"
+    },
+    {
+      "account_id": "NODE_L7_4",
+      "total_sent": 11813.0,
+      "total_received": 11813.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-09-21T14:55:16",
+      "last_seen_time": "2023-10-24T01:28:13",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N018"
+    },
+    {
+      "account_id": "NODE_L7_0",
+      "total_sent": 11813.0,
+      "total_received": 11813.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-09-21T14:55:16",
+      "last_seen_time": "2023-11-20T02:43:11",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N018"
+    },
+    {
+      "account_id": "NODE_L6_7",
+      "total_sent": 12314.0,
+      "total_received": 12314.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-10-02T12:15:35",
+      "last_seen_time": "2023-10-18T13:39:32",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N013"
+    },
+    {
+      "account_id": "NODE_L4_2",
+      "total_sent": 6248.0,
+      "total_received": 6248.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-10-08T12:51:09",
+      "last_seen_time": "2023-12-16T16:39:51",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N001"
+    },
+    {
+      "account_id": "NODE_L7_3",
+      "total_sent": 11813.0,
+      "total_received": 11813.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-10-24T01:28:13",
+      "last_seen_time": "2023-12-02T20:13:31",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N018"
+    },
+    {
+      "account_id": "NODE_L7_1",
+      "total_sent": 11813.0,
+      "total_received": 11813.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-11-10T19:01:02",
+      "last_seen_time": "2023-11-20T02:43:11",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N018"
+    },
+    {
+      "account_id": "NODE_L7_2",
+      "total_sent": 11813.0,
+      "total_received": 11813.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-11-10T19:01:02",
+      "last_seen_time": "2023-12-02T20:13:31",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N018"
+    },
+    {
+      "account_id": "NODE_L12_6",
+      "total_sent": 13780.0,
+      "total_received": 13780.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-12-07T00:13:15",
+      "last_seen_time": "2023-12-13T14:19:15",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N002"
+    },
+    {
+      "account_id": "NODE_L9_5",
+      "total_sent": 13077.0,
+      "total_received": 13077.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-12-15T12:45:42",
+      "last_seen_time": "2023-12-19T17:15:08",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N012"
+    },
+    {
+      "account_id": "NODE_L4_1",
+      "total_sent": 6248.0,
+      "total_received": 6248.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-12-16T16:39:51",
+      "last_seen_time": "2023-12-20T12:14:48",
+      "transaction_count": 2,
+      "suspicious_score": 50.0,
+      "tags": [
+        "ringtype:loop"
+      ],
+      "network_id": "N001"
+    },
+    {
+      "account_id": "NODE_L6_2",
+      "total_sent": 12314.0,
+      "total_received": 12314.0,
+      "unique_senders_count": 1,
+      "unique_receivers_count": 1,
+      "first_seen_time": "2023-12-23T14:46:44",
+      "last_seen_time": "2023-12-24T08:34:44",
+      "transaction_count": 2,
+      "suspicious_score": 135.0,
+      "tags": [
+        "ringtype:loop",
+        "ringtype:shell"
+      ],
+      "network_id": "N013"
+    }
+  ],
+  "networks": [
+    {
+      "network_id": "N001",
+      "members": [
+        "NODE_L4_3",
+        "NODE_L4_4",
+        "NODE_L4_5",
+        "NODE_L4_6",
+        "NODE_L4_0",
+        "NODE_L4_1",
+        "NODE_L4_2"
+      ],
+      "member_count": 7,
+      "total_amount_moved": 43736.0,
+      "patterns": [
+        "ringtype:loop"
+      ],
+      "risk_score": 39.373599999999996,
+      "risk_level": "Medium"
+    },
+    {
+      "network_id": "N002",
+      "members": [
+        "NODE_L12_0",
+        "NODE_L12_1",
+        "NODE_L12_2",
+        "NODE_L12_3",
+        "NODE_L12_4",
+        "NODE_L12_5",
+        "NODE_L12_6",
+        "NODE_L12_7"
+      ],
+      "member_count": 8,
+      "total_amount_moved": 110240.0,
+      "patterns": [
+        "ringtype:loop"
+      ],
+      "risk_score": 46.024,
+      "risk_level": "Medium"
+    },
+    {
+      "network_id": "N003",
+      "members": [
+        "UNKNOWN_ORIGIN",
+        "SHELL_ACC_7"
+      ],
+      "member_count": 2,
+      "total_amount_moved": 262770.0,
+      "patterns": [
+        "ringtype:shell"
+      ],
+      "risk_score": 62.5,
+      "risk_level": "High"
+    },
+    {
+      "network_id": "N004",
+      "members": [
+        "U_5890",
+        "U_8992",
+        "U_5384",
+        "U_4029",
+        "U_9162",
+        "U_3062"
+      ],
+      "member_count": 6,
+      "total_amount_moved": 23623.0,
+      "patterns": [
+        "ringtype:loop"
+      ],
+      "risk_score": 37.3623,
+      "risk_level": "Medium"
+    },
+    {
+      "network_id": "N005",
+      "members": [
+        "NODE_L14_6",
+        "NODE_L14_0",
+        "NODE_L14_1",
+        "NODE_L14_2",
+        "NODE_L14_3",
+        "NODE_L14_4",
+        "NODE_L14_5"
+      ],
+      "member_count": 7,
+      "total_amount_moved": 89894.0,
+      "patterns": [
+        "ringtype:loop"
+      ],
+      "risk_score": 43.9894,
+      "risk_level": "Medium"
+    },
+    {
+      "network_id": "N006",
+      "members": [
+        "NODE_L13_3",
+        "NODE_L13_4",
+        "NODE_L13_5",
+        "NODE_L13_0",
+        "NODE_L13_1",
+        "NODE_L13_2"
+      ],
+      "member_count": 6,
+      "total_amount_moved": 71658.0,
+      "patterns": [
+        "ringtype:loop"
+      ],
+      "risk_score": 42.1658,
+      "risk_level": "Medium"
+    },
+    {
+      "network_id": "N007",
+      "members": [
+        "BIG_CORP_INC"
+      ],
+      "member_count": 1,
+      "total_amount_moved": 3000000.0,
+      "patterns": [],
+      "risk_score": 35.0,
+      "risk_level": "Medium"
+    },
+    {
+      "network_id": "N008",
+      "members": [
+        "NODE_L3_1",
+        "NODE_L3_2",
+        "NODE_L3_3",
+        "NODE_L3_0"
+      ],
+      "member_count": 4,
+      "total_amount_moved": 28228.0,
+      "patterns": [
+        "ringtype:loop"
+      ],
+      "risk_score": 37.8228,
+      "risk_level": "Medium"
+    },
+    {
+      "network_id": "N009",
+      "members": [
+        "NODE_L2_7",
+        "NODE_L2_0",
+        "NODE_L2_1",
+        "NODE_L2_2",
+        "NODE_L2_3",
+        "NODE_L2_4",
+        "NODE_L2_5",
+        "NODE_L2_6"
+      ],
+      "member_count": 8,
+      "total_amount_moved": 45448.0,
+      "patterns": [
+        "ringtype:loop"
+      ],
+      "risk_score": 39.5448,
+      "risk_level": "Medium"
+    },
+    {
+      "network_id": "N010",
+      "members": [
+        "NODE_L8_0",
+        "NODE_L8_1",
+        "NODE_L8_2",
+        "NODE_L8_3",
+        "NODE_L8_4"
+      ],
+      "member_count": 5,
+      "total_amount_moved": 32540.0,
+      "patterns": [
+        "ringtype:loop",
+        "ringtype:shell"
+      ],
+      "risk_score": 66.75399999999999,
+      "risk_level": "High"
+    },
+    {
+      "network_id": "N011",
+      "members": [
+        "NODE_L11_5",
+        "NODE_L11_0",
+        "NODE_L11_1",
+        "NODE_L11_2",
+        "NODE_L11_3",
+        "NODE_L11_4"
+      ],
+      "member_count": 6,
+      "total_amount_moved": 40236.0,
+      "patterns": [
+        "ringtype:loop"
+      ],
+      "risk_score": 39.0236,
+      "risk_level": "Medium"
+    },
+    {
+      "network_id": "N012",
+      "members": [
+        "NODE_L9_6",
+        "NODE_L9_7",
+        "NODE_L9_8",
+        "NODE_L9_0",
+        "NODE_L9_1",
+        "NODE_L9_2",
+        "NODE_L9_3",
+        "NODE_L9_4",
+        "NODE_L9_5"
+      ],
+      "member_count": 9,
+      "total_amount_moved": 117693.0,
+      "patterns": [
+        "ringtype:loop"
+      ],
+      "risk_score": 46.7693,
+      "risk_level": "Medium"
+    },
+    {
+      "network_id": "N013",
+      "members": [
+        "NODE_L6_5",
+        "NODE_L6_6",
+        "NODE_L6_7",
+        "NODE_L6_0",
+        "NODE_L6_1",
+        "NODE_L6_2",
+        "NODE_L6_3",
+        "NODE_L6_4"
+      ],
+      "member_count": 8,
+      "total_amount_moved": 98512.0,
+      "patterns": [
+        "ringtype:loop",
+        "ringtype:shell"
+      ],
+      "risk_score": 70.1637,
+      "risk_level": "High"
+    },
+    {
+      "network_id": "N014",
+      "members": [
+        "NODE_L5_2",
+        "NODE_L5_0",
+        "NODE_L5_1"
+      ],
+      "member_count": 3,
+      "total_amount_moved": 20514.0,
+      "patterns": [
+        "ringtype:loop"
+      ],
+      "risk_score": 37.0514,
+      "risk_level": "Medium"
+    },
+    {
+      "network_id": "N015",
+      "members": [
+        "NODE_L10_0",
+        "NODE_L10_1",
+        "NODE_L10_2",
+        "NODE_L10_3",
+        "NODE_L10_4"
+      ],
+      "member_count": 5,
+      "total_amount_moved": 47980.0,
+      "patterns": [
+        "ringtype:loop"
+      ],
+      "risk_score": 39.798,
+      "risk_level": "Medium"
+    },
+    {
+      "network_id": "N016",
+      "members": [
+        "NODE_L1_0",
+        "NODE_L1_1",
+        "NODE_L1_2",
+        "NODE_L1_3",
+        "NODE_L1_4",
+        "NODE_L1_5"
+      ],
+      "member_count": 6,
+      "total_amount_moved": 53358.0,
+      "patterns": [
+        "ringtype:loop"
+      ],
+      "risk_score": 40.3358,
+      "risk_level": "Medium"
+    },
+    {
+      "network_id": "N017",
+      "members": [
+        "NODE_L0_1",
+        "NODE_L0_2",
+        "NODE_L0_3",
+        "NODE_L0_4",
+        "NODE_L0_0"
+      ],
+      "member_count": 5,
+      "total_amount_moved": 72465.0,
+      "patterns": [
+        "ringtype:loop",
+        "ringtype:shell"
+      ],
+      "risk_score": 89.2465,
+      "risk_level": "Critical"
+    },
+    {
+      "network_id": "N018",
+      "members": [
+        "NODE_L7_4",
+        "NODE_L7_0",
+        "NODE_L7_1",
+        "NODE_L7_2",
+        "NODE_L7_3"
+      ],
+      "member_count": 5,
+      "total_amount_moved": 59065.0,
+      "patterns": [
+        "ringtype:loop"
+      ],
+      "risk_score": 40.9065,
+      "risk_level": "Medium"
+    }
+  ]
+}
