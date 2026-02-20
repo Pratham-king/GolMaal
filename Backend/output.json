@@ -655,8 +655,8 @@
       "Account_id": "ACC_04352",
       "Reciving Edges": [],
       "sending Edges": [
-        "ACC_09885",
-        "ACC_05171"
+        "ACC_05171",
+        "ACC_09885"
       ],
       "suspicion_score": 15.0,
       "type": "None"
@@ -709,8 +709,8 @@
     {
       "Account_id": "ACC_06105",
       "Reciving Edges": [
-        "ACC_09235",
-        "ACC_05131"
+        "ACC_05131",
+        "ACC_09235"
       ],
       "sending Edges": [
         "ACC_08548"
@@ -882,8 +882,8 @@
     {
       "Account_id": "ACC_09187",
       "Reciving Edges": [
-        "ACC_07417",
-        "ACC_05599"
+        "ACC_05599",
+        "ACC_07417"
       ],
       "sending Edges": [],
       "suspicion_score": 10.0,
@@ -2394,18 +2394,18 @@
     {
       "Account_id": "SMURF_01",
       "Reciving Edges": [
-        "ACC_01008",
         "ACC_01003",
-        "ACC_01006",
-        "ACC_01010",
         "ACC_01000",
-        "ACC_01007",
-        "ACC_01001",
-        "ACC_01002",
-        "ACC_01011",
+        "ACC_01006",
         "ACC_01004",
+        "ACC_01005",
         "ACC_01009",
-        "ACC_01005"
+        "ACC_01001",
+        "ACC_01010",
+        "ACC_01007",
+        "ACC_01011",
+        "ACC_01008",
+        "ACC_01002"
       ],
       "sending Edges": [],
       "suspicion_score": 66.667,
@@ -2879,8 +2879,8 @@
     {
       "Account_id": "ACC_07508",
       "Reciving Edges": [
-        "ACC_09110",
-        "ACC_09619"
+        "ACC_09619",
+        "ACC_09110"
       ],
       "sending Edges": [],
       "suspicion_score": 10.0,
@@ -4391,26 +4391,26 @@
     {
       "Account_id": "MERCHANT_01",
       "Reciving Edges": [
-        "ACC_02016",
+        "ACC_02001",
+        "ACC_02012",
+        "ACC_02004",
         "ACC_02013",
-        "ACC_02019",
+        "ACC_02000",
         "ACC_02006",
+        "ACC_02009",
+        "ACC_02003",
+        "ACC_02010",
+        "ACC_02011",
+        "ACC_02017",
+        "ACC_02015",
         "ACC_02007",
-        "ACC_02008",
         "ACC_02005",
         "ACC_02014",
-        "ACC_02017",
-        "ACC_02000",
-        "ACC_02011",
-        "ACC_02015",
-        "ACC_02018",
-        "ACC_02010",
-        "ACC_02009",
-        "ACC_02004",
-        "ACC_02012",
         "ACC_02002",
-        "ACC_02001",
-        "ACC_02003"
+        "ACC_02008",
+        "ACC_02019",
+        "ACC_02016",
+        "ACC_02018"
       ],
       "sending Edges": [],
       "suspicion_score": 66.667,
@@ -4637,19 +4637,19 @@
     {
       "network_id": "DISPERSAL_SMURF_01",
       "members": [
-        "ACC_01008",
         "ACC_01003",
-        "ACC_01006",
-        "ACC_01010",
         "ACC_01000",
-        "ACC_01007",
-        "SMURF_01",
-        "ACC_01001",
-        "ACC_01002",
-        "ACC_01011",
+        "ACC_01006",
         "ACC_01004",
+        "ACC_01005",
         "ACC_01009",
-        "ACC_01005"
+        "ACC_01001",
+        "ACC_01010",
+        "ACC_01007",
+        "ACC_01011",
+        "SMURF_01",
+        "ACC_01008",
+        "ACC_01002"
       ],
       "member_count": 13,
       "total_amount_moved": 25154.219999999998,
@@ -4662,27 +4662,27 @@
     {
       "network_id": "DISPERSAL_MERCHANT_01",
       "members": [
-        "ACC_02016",
-        "ACC_02013",
-        "ACC_02019",
-        "ACC_02006",
-        "ACC_02007",
-        "ACC_02008",
-        "ACC_02005",
-        "MERCHANT_01",
-        "ACC_02014",
-        "ACC_02017",
-        "ACC_02000",
-        "ACC_02011",
-        "ACC_02015",
-        "ACC_02018",
-        "ACC_02010",
-        "ACC_02009",
-        "ACC_02004",
-        "ACC_02012",
-        "ACC_02002",
         "ACC_02001",
-        "ACC_02003"
+        "ACC_02012",
+        "ACC_02004",
+        "ACC_02013",
+        "ACC_02000",
+        "ACC_02006",
+        "ACC_02009",
+        "ACC_02003",
+        "ACC_02010",
+        "ACC_02011",
+        "ACC_02017",
+        "ACC_02015",
+        "ACC_02007",
+        "ACC_02005",
+        "ACC_02014",
+        "ACC_02002",
+        "MERCHANT_01",
+        "ACC_02008",
+        "ACC_02019",
+        "ACC_02016",
+        "ACC_02018"
       ],
       "member_count": 21,
       "total_amount_moved": 12618.16,

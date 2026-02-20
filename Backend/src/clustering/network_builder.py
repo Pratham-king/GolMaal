@@ -10,6 +10,7 @@ class NetworkBuilder:
         self.networks: List[NetworkProfile] = []
 
     def built_networks(self, name: str, detail: RingDetail) :
+        
         self.networks.append(NetworkProfile(network_id=name, members=detail.members))
 
     

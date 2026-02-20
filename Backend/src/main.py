@@ -19,15 +19,22 @@ from src.utils.json_exporter import JsonExporter
 
 def main():
     
+    # DONE file check
+    if os.path.exists("DONE"):
+        os.remove("DONE")
+
     start_time = time.time()
-    importfile = "/home/wolfy/projects/Hackathon/Rift26/GolMaal/Backend/data/transactions.csv"
-    outputfile = "/home/wolfy/projects/Hackathon/Rift26/GolMaal/Backend/output.json"
-    loops_detected: Dict[str, RingDetail] = {}
+    
+    # Default file path
+    file_path = "transactions.csv"
+    
     # 1. Load CSV
-    # Using a dummy path or argument
-    file_path = importfile
     if len(sys.argv) > 1:
         file_path = sys.argv[1]
+    
+    # Determine output directory based on input file location
+    output_dir = os.path.dirname(file_path)
+    outputfile = os.path.join(output_dir, "output.json")
     
     print(f"Starting pipeline with {file_path}")
     loader = DataLoader(file_path)
@@ -89,11 +96,15 @@ def main():
     # Format processing time
     processing_time_str = f"{processing_time_seconds:.2f} seconds"
     
-    download_file = "./download.json"
+    download_file = os.path.join(output_dir, "download.json")
     if len(sys.argv) > 2:
         download_file = sys.argv[2]
         
     JsonExporter.export_download_report(accounts, networks, loops, processing_time_str, download_file, adj_list, rev_adj_list)
+
+    # Create DONE file
+    with open("DONE", "w") as f:
+        pass
 
     print("Pipeline complete.")
 
