@@ -20,7 +20,7 @@ class RiskEngine:
             
             for m in network.members:
                 profile = self.accounts[m]
-                total_volume += profile.total_sent
+                total_volume += profile.total_sent + profile.total_received
                 for tag in profile.tags:
                     all_patterns.add(tag)
                 if "ringtype:shell" in profile.tags:

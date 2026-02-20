@@ -1,6 +1,7 @@
 from typing import List, Dict, Set
 from src.models.account_profile import AccountProfile
 from src.models.network_profile import NetworkProfile
+from src.models.ring_detail import RingDetail
 
 class NetworkBuilder:
     def __init__(self, accounts: Dict[str, AccountProfile], adjacency_list: Dict[str, List[Dict]]):
@@ -8,37 +9,10 @@ class NetworkBuilder:
         self.adjacency_list = adjacency_list
         self.networks: List[NetworkProfile] = []
 
-    def build_networks(self) -> List[NetworkProfile]:
-        print("Building suspicious networks (clustering)...")
-        # heuristic: only cluster accounts with some suspicion
-        suspicious_accounts = [
-            acc_id for acc_id, profile in self.accounts.items() 
-            if profile.suspicious_score > 0
-        ]
-        
-        visited: Set[str] = set()
-        network_counter = 0
+    def built_networks(self, name: str, detail: RingDetail) :
+        self.networks.append(NetworkProfile(network_id=name, members=detail.members))
 
-        for account_id in suspicious_accounts:
-            if account_id not in visited:
-                network_counter += 1
-                network_id = f"N{network_counter:03d}"
-                members = self._bfs_cluster(account_id, visited, suspicious_accounts)
-                
-                # Update profiles with network_id
-                for member_id in members:
-                    self.accounts[member_id].network_id = network_id
-
-                # Create Network Profile
-                network_profile = NetworkProfile(
-                    network_id=network_id,
-                    members=members
-                )
-                self.networks.append(network_profile)
-        
-        print(f"Formed {len(self.networks)} suspicious networks.")
-        return self.networks
-
+    
     def _bfs_cluster(self, start_node: str, visited: Set[str], allowed_nodes: List[str]) -> List[str]:
         cluster = []
         queue = [start_node]

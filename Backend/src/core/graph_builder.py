@@ -1,3 +1,4 @@
+from datetime import timedelta
 from typing import List, Dict, Any
 from src.models.transaction import Transaction
 from src.models.account_profile import AccountProfile
@@ -55,6 +56,10 @@ class GraphBuilder:
                 "transaction_id": tx_id
             }
             self.reverse_adjacency_list[tx.receiver_id].append(reverse_edge_data)
+
+            if len(self.reverse_adjacency_list[tx.receiver_id]) > 1:
+                if (self.reverse_adjacency_list[tx.receiver_id][-1]["timestamp"] - self.reverse_adjacency_list[tx.receiver_id][-2]["timestamp"] > timedelta(minutes=2)):
+                    pass
 
         print(f"Graph built with {len(self.accounts)} nodes.")
         return self.accounts, self.adjacency_list, self.reverse_adjacency_list

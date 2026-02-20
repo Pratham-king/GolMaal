@@ -1,13 +1,20 @@
-from typing import List, Set, Dict, Any, Tuple
+from typing import List, Dict, Any, Tuple
 from src.patterns.base_detector import BasePatternDetector
 from src.models.ring_detail import RingDetail
+from src.clustering.network_builder import NetworkBuilder
 from datetime import datetime
 
 class LoopDetector(BasePatternDetector):
+    cycle_length = 0
+
+    def __init__(self, accounts: Dict[str, Any], adjacency_list: Dict[str, Any], network_builder: NetworkBuilder = None):
+        super().__init__(accounts, adjacency_list)
+        self.network_builder = network_builder
+        self.loops_detected: Dict[str, RingDetail] = {}
+
     def detect(self):
         print("Detecting loops (cycles) using modified Johnson's algorithm...")
         
-        self.loops_detected: Dict[str, RingDetail] = {}
         self.loop_counter = 0
 
         # Create a sorted list of nodes to iterate through
@@ -15,7 +22,11 @@ class LoopDetector(BasePatternDetector):
         nodes = sorted(list(self.accounts.keys()))
         
         for start_node in nodes:
-            self._circuit(start_node, start_node, [], datetime.min)
+            self.cycle_length = 0
+            if "payroll" in self.accounts[start_node].tags or "merchant" in self.accounts[start_node].tags:
+                continue    
+            else:
+                self._circuit(start_node, start_node, [], datetime.min)
 
         print(f"Total loops detected: {len(self.loops_detected)}")
 
@@ -62,29 +73,16 @@ class LoopDetector(BasePatternDetector):
                     # Cycle found!
                     # Only accept if cycle length >= 3
                     if len(stack) >= 3:
-                        # Also check temporal constraint for closing edge if necessary? 
-                        # The user said "after the initial node". 
-                        # If we strictly interpret "after completing all iterations", 
-                        # the closing edge should also follow time, but typically loops close back.
-                        # Let's apply the condition: closing edge time > last edge time?
-                        # User query: "check the timestmp only use the transactions which are after the initial node"
-                        # This implies any edge in the loop must be > start_node's initial transaction?
-                        # Or strictly increasing time? "index is the distance... use transactions which are after the initial node"
-                        # Implementation: verify edge_timestamp > stack[1].timestamp (the first edge in path)
                         
+                        if len(stack) > self.cycle_length :
+                            self.cycle_length = len(stack)
+                         
                         first_edge_time = stack[1][1] if len(stack) > 1 else datetime.min
                         if len(stack) > 1 and edge_timestamp <= first_edge_time:
                              continue
 
                         self._record_loop(stack)
                 else:
-                    # Recursive step
-                    # Pass the timestamp of this edge as the new constraint?
-                    # "check the timestmp only use the transactions which are after the initial node"
-                    # This could mean globally after the *start* of the loop, or incrementally increasing.
-                    # "strict implementation" often implies strictly increasing in financial typologies.
-                    # However, the user specific note "after the initial node" is key.
-                    # Let's enforce: edge_timestamp > first_edge_timestamp (transaction from start_node)
                     
                     next_min_time = min_timestamp
                     if len(stack) == 1:
@@ -97,6 +95,7 @@ class LoopDetector(BasePatternDetector):
         stack.pop()
 
     def _record_loop(self, stack: List[Tuple[str, datetime]]):
+        # Access the global NetworkBuilder instance to build networks immediately upon loop detection
         members = [node for node, _ in stack]
         
         # Structure nodes by distance
@@ -114,10 +113,10 @@ class LoopDetector(BasePatternDetector):
             ring_id=ring_id,
             members=members,
             nodes_by_distance=nodes_by_distance,
-            suspicious_score_boost=50.0 # Default value
         )
         
-        self.loops_detected[ring_id] = detail
+        if self.network_builder:
+            self.network_builder.built_networks(ring_id, detail) # Build network for this loop immediately
         # self._increase_suspicion(members) # User requirement
         self.increase_suspicion(members)
 
@@ -127,6 +126,6 @@ class LoopDetector(BasePatternDetector):
         """
         for member_id in members:
             if member_id in self.accounts:
-                self.accounts[member_id].suspicious_score += 50
+                self.accounts[member_id].IncSuspiciousScore(80.0)
                 if "ringtype:loop" not in self.accounts[member_id].tags:
                     self.accounts[member_id].tags.append("ringtype:loop")

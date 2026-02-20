@@ -16,10 +16,11 @@ class DataLoader:
                 reader.fieldnames = [name.strip() for name in reader.fieldnames]
                 
                 for row in reader:
-                    # Parse timestamp format: DDMMYYYY:hhmmss
+                    # Parse timestamp format: YYYY-MM-DD HH:MM:SS
                     try:
                         timestamp_str = row['timestamp'].strip()
-                        timestamp = datetime.strptime(timestamp_str, "%d%m%Y:%H%M%S")
+                        # Handles 2024-01-21 3:01:00 or 2024-01-21 03:01:00
+                        timestamp = datetime.strptime(timestamp_str, "%Y-%m-%d %H:%M:%S")
                     except ValueError:
                         print(f"Skipping row with invalid timestamp: {row}")
                         continue

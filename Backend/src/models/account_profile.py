@@ -15,6 +15,7 @@ class AccountProfile:
     suspicious_score: float = 0.0
     tags: List[str] = field(default_factory=list)
     network_id: Optional[str] = None
+    bursts: int = 0
 
     def update(self, amount: float, is_sender: bool, counterparty: str, timestamp: datetime):
         self.transaction_count += 1
@@ -45,3 +46,7 @@ class AccountProfile:
             "tags": self.tags,
             "network_id": self.network_id
         }
+    def IncSuspiciousScore(self, amount):
+        self.suspicious_score += amount
+    def UpdateBurstCount(self):
+        self.bursts += 1

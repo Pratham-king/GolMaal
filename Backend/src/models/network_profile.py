@@ -5,11 +5,11 @@ from typing import List
 class NetworkProfile:
     network_id: str
     members: List[str] = field(default_factory=list)
-    total_amount_moved: float = 0.0
+
     pattern_types_present: List[str] = field(default_factory=list)
-    avg_suspicious_score: float = 0.0
-    risk_score: float = 0.0
-    risk_level: str = "Low"
+    # avg_suspicious_score: float = 0.0
+    # risk_score: float = 0.0
+    # risk_level: str = "Low"
 
     def to_dict(self):
         return {
